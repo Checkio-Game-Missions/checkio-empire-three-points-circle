@@ -1,4 +1,4 @@
-checkio-task-three-points-circle
+three-points-circle
 ================================
 
-Checkio Task "Three Points Circle"
+Crystal Store "Three Points Circle"
