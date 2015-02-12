@@ -1,7 +1,7 @@
-If we want new silos, then we need more formal and constructive plots.
-But our topographer just marks several points and thinks that is enough.
-He even don't give coordinates as all robots with digits, 
-just a handwrite note. Paper note!
+If we want to build new silos, then we need to make more formal and constructive plots.
+Our topographer only marks several points on the map and thinks that is enough.
+He even don't give us the coordinates with digits as all robots use, 
+just a handwritten note. Paper notes!
 
 Through any three points that do not exist on the same line, there lies a unique circle.
 The points of this circle are represented in a string with the coordinates like so:
@@ -10,14 +10,14 @@ The points of this circle are represented in a string with the coordinates like 
 
 Where _x1,y1,x2,y2,x3,y3_ are digits.
 
-You should find the circle for three given points, 
+You should find the circle for the three given points, 
 such that the circle lies through these point and return the result as a string with the equation of the circle.
 In a Cartesian coordinate system (with an X and Y axis),
 the circle with central coordinates of (x0,y0) and radius of r can be described with the following equation:
 
 `(x-x0)^2+(y-y0)^2=r^2`
 
-where _x0_, _y0_, _r_ are decimal numbers rounded to **two decimal points**.
+Where _x0_, _y0_, _r_ are decimal numbers rounded to **two decimal points**.
 Remove extraneous zeros and all decimal points, they are not necessary.
 For rounding, use the standard mathematical rules.
 
@@ -39,7 +39,7 @@ circle_equation("(3,7),(6,9),(9,7)") == "(x-6)^2+(y-5.75)^2=3.25^2"
 This equation, also known as Equation of the Circle,
 comes from the Pythagorean theorem when applied to any point on a circle:
 the radius is the hypotenuse of a right-angled triangle whose other sides are of length x − a and y − b.
-Of course you can use this concept for you mathematics software, but we just want to remind about how awesome circles are.
+Of course you can use this concept for you mathematics software, but we really just want to remind about how awesome circles are.
 
 
 **Precondition:**
