@@ -1,4 +1,4 @@
-If we want new silos, then we need more formal and constructive plots.
-But our topographer just marks several points and thinks that is enough.
-He even don't give coordinates as all robots with digits, 
-just a handwrite note. Paper note!
+If we want to build new silos, then we need to make more formal and constructive plots.
+Our topographer only marks several points on the map and thinks that is enough.
+He even don't give us the coordinates with digits as all robots use, 
+just a handwritten note. Paper notes!
