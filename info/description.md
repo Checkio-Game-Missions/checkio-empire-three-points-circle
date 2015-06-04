@@ -16,4 +16,4 @@ Where _x0_, _y0_, _r_ are decimal numbers rounded to **two decimal points**.
 Remove extraneous zeros and all decimal points, they are not necessary.
 For rounding, use the standard mathematical rules.
 
-![Circles](three_points_circle.png.svg)
+![Circles](three_points_circle.png)
