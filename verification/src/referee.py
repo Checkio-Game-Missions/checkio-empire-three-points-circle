@@ -1,5 +1,5 @@
 from checkio_referee import RefereeBase
-from checkio_referee import covercodes
+from checkio_referee import covercodes, ENV_NAME
 
 
 import settings_env
@@ -11,8 +11,6 @@ class Referee(RefereeBase):
     ENVIRONMENTS = settings_env.ENVIRONMENTS
 
     DEFAULT_FUNCTION_NAME = "circle_equation"
-    ENV_COVERCODE = {
-        "python_2": covercodes.py_2_str,
-        "python_3": None,
-        "javascript": None
+    FUNCTION_NAMES = {
+        ENV_NAME.JS_NODE: "circleEquation"
     }
